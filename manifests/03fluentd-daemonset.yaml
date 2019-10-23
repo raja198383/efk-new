@@ -31,6 +31,10 @@ spec:
             value: "http"
           - name: FLUENTD_SYSTEMD_CONF
             value: disable
+          #- name: FLUENT_ELASTICSEARCH_USER
+          #  value: "elastic"
+          #- name: FLUENT_ELASTICSEARCH_PASSWORD
+          #  value: "nM1GDSCsXjxECyTtXESC"
         resources:
           limits:
             memory: 512Mi
